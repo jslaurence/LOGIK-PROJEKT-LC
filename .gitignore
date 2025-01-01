@@ -81,4 +81,9 @@ resources/flame/python/logik_projekt/openclip_tools/scratch_precomp.py
 error
 resources/utilities/scripts/bash/create_new_ssh_keys/scripts/create_ssh_keys-linux copy.sh
 resources/utilities/scripts/bash/create_new_ssh_keys/scripts/create_ssh_keys-linux copy 2.sh
+<<<<<<< HEAD
 >>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb
+=======
+
+.codegpt
+>>>>>>> cdb9a1512a79db98e5d3a88723da6dd423744d35
