@@ -32,9 +32,9 @@
 # -------------------------------------------------------------------------- #
 
 # File Name:        get_environment.py
-# Version:          0.9.9
+# Version:          1.0.0
 # Created:          2024-01-19
-# Modified:         2024-08-31
+# Modified:         2024-12-25
 
 # ========================================================================== #
 # This section defines the import statements and directory paths.
@@ -224,11 +224,21 @@ class GetEnvironment:
 
     @staticmethod
     def projekt_hostname():
-        """Get the hostname of the current machine."""
+        """Get the first part of the computer name."""
         try:
-            return socket.gethostname()
+            computer_name = GetEnvironment.projekt_computername()
+            parts = computer_name.split('.')
+            return parts[0]
         except Exception as e:
             return str(e)
+
+    # @staticmethod
+    # def projekt_hostname():
+    #     """Get the hostname of the current machine."""
+    #     try:
+    #         return socket.gethostname()
+    #     except Exception as e:
+    #         return str(e)
 
     @staticmethod
     def projekt_localhostname():
@@ -256,6 +266,16 @@ class GetEnvironment:
         except Exception as e:
             return str(e)
 
+    # @staticmethod
+    # def projekt_workstation_name():
+    #     """Get the first part of the computer name."""
+    #     try:
+    #         computer_name = GetEnvironment.projekt_computername()
+    #         parts = computer_name.split('.')
+    #         return parts[0]
+    #     except Exception as e:
+    #         return str(e)
+
     @staticmethod
     def get_environment_summary():
         """Get a summary of the environment details."""
@@ -266,9 +286,12 @@ class GetEnvironment:
             "Primary Group": GetEnvironment.projekt_primary_group(),
             "Operating System": GetEnvironment.projekt_os(),
             "Hostname": GetEnvironment.projekt_hostname(),
-            "Local Hostname": GetEnvironment.projekt_localhostname(),
-            "Computer Name": GetEnvironment.projekt_computername(),
             "Workstation Name": GetEnvironment.projekt_workstation_name(),
+            "FQDN": GetEnvironment.projekt_computername(),
+            "Network Adress": GetEnvironment.projekt_localhostname(),
+            # "Hostname": GetEnvironment.projekt_hostname(),
+            # "Hostname": GetEnvironment.projekt_workstation_name(),
+            # "Local Hostname": GetEnvironment.projekt_localhostname(),
         }
         
         # Add JSON config data to the summary
@@ -315,4 +338,8 @@ if __name__ == "__main__":
 # version:          0.9.9
 # modified:         2024-08-31 - 16:51:09
 # comments:         prep for release - code appears to be functional
+# -------------------------------------------------------------------------- #
+# version:          1.0.0
+# modified:         2024-12-25 - 09:50:13
+# comments:         Preparation for future features
 # -------------------------------------------------------------------------- #

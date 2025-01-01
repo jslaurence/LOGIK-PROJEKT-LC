@@ -32,9 +32,9 @@
 # -------------------------------------------------------------------------- #
 
 # File Name:        sync_nuke_dirs.py
-# Version:          0.0.1
+# Version:          1.0.0
 # Created:          2024-11-07
-# Modified:         2024-11-07
+# Modified:         2024-12-25
 
 # ========================================================================== #
 # This section defines the import statements and directory paths.
@@ -189,6 +189,8 @@ separator = '# ' + '-' * 75 + ' #'
 
 # Function to synchronize nuke directories
 def sync_nuke_dirs(
+        the_hostname,
+        the_projekt_os,
         the_projekts_dir,
         the_projekt_flame_dirs,
         the_adsk_dir,
@@ -196,7 +198,8 @@ def sync_nuke_dirs(
         the_adsk_dir_macos,
         the_projekt_name,
         the_projekt_flame_name,
-        separator
+        the_sanitized_version,
+        separator,
     ):
     
     # Nested function to generate backup filename with current date
@@ -213,6 +216,15 @@ def sync_nuke_dirs(
 
     # Set the projekt_flame_dir
     the_projekt_flame_dir =f"{the_projekt_flame_dirs}/{the_projekt_flame_name}"
+
+    # Define the projekt flame setups directory based on the flame version
+    if the_sanitized_version.startswith("2025"):
+        the_projekt_flame_setups_dir = the_projekt_flame_dir
+    else:
+        the_projekt_flame_setups_dir = os.path.join(the_projekt_flame_dir, 'setups')
+
+    # # Set the projekt_flame_setups_dir
+    # the_projekt_flame_setups_dir = os.path.join(the_projekt_flame_dir, "setups")  # Fix for flame 2026
 
     # ------------------------------------------------------------------------- #
     # Set the source and target nuke directories
@@ -378,6 +390,8 @@ def main():
 
     # Call the function to synchronize Python scripts
     sync_nuke_dirs(
+        the_hostname,
+        the_projekt_os,
         the_projekts_dir,
         the_projekt_flame_dirs,
         the_adsk_dir,
@@ -385,7 +399,8 @@ def main():
         the_adsk_dir_macos,
         the_projekt_name,
         the_projekt_flame_name,
-        separator
+        the_sanitized_version,
+        separator,
     )
 
 if __name__ == "__main__":
@@ -421,4 +436,8 @@ if __name__ == "__main__":
 # version:          0.9.9
 # modified:         2024-08-31 - 16:51:09
 # comments:         prep for release - code appears to be functional
+# -------------------------------------------------------------------------- #
+# version:          1.0.0
+# modified:         2024-12-25 - 09:50:15
+# comments:         Preparation for future features
 # -------------------------------------------------------------------------- #

@@ -65,11 +65,20 @@ resources/flame/Syncolor/Shared/transforms/flame_colortoolkit/SONY/S3SGamut3_Ven
 resources/flame/Syncolor/Shared/transforms/flame_colortoolkit/SONY/S3SGamut3_Venice/S3SGamut3_Venice_to_AP0.ctf
 resources/flame/Syncolor/Shared/transforms/flame_colortoolkit/SONY/S3SGamut3_Venice/S3SGamut3_Venice_to_AP1.ctf
 resources/flame/Syncolor/Shared/transforms.tar.xz
-resources/tmp/current_projekt_bookmarks.json
-resources/tmp/current_projekt_parameters.xml
-resources/tmp/current_projekt_template.json
-resources/tmp/current_projekt_template.json.bak
 development/send_webhook.sh
+<<<<<<< HEAD
 install/logs/2024-11-08-current_adsk_python_version_log.txt
 LOGIK-PROJEKT.desktop
 flame_colortoolkit.zip
+=======
+customization/testing/premiere_directories.py
+customization/branding/rocky-fonts/rocky-fonts-master
+resources/flame/python/logik_projekt/openclip_tools/scratch_comp.py
+resources/flame/python/logik_projekt/openclip_tools/scratch_mattes.py
+resources/flame/python/logik_projekt/openclip_tools/scratch_multichannel.py
+resources/flame/python/logik_projekt/openclip_tools/scratch_neat_video.py
+resources/flame/python/logik_projekt/openclip_tools/scratch_precomp.py
+error
+resources/utilities/scripts/bash/create_new_ssh_keys/scripts/create_ssh_keys-linux copy.sh
+resources/utilities/scripts/bash/create_new_ssh_keys/scripts/create_ssh_keys-linux copy 2.sh
+>>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb

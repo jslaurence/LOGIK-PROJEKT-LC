@@ -32,6 +32,7 @@
                                         "Visibility": "Global"
                                     },
                                     {
+<<<<<<< HEAD
                                         "Folder": "audio",
                                         "Bookmarks": [
                                             {
@@ -75,6 +76,11 @@
                                                 "Visibility": "Global"
                                             }
                                         ]
+=======
+                                        "Bookmark": "audio",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/audio",
+                                        "Visibility": "Global"
+>>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb
                                     },
                                     {
                                         "Bookmark": "font",
@@ -82,6 +88,7 @@
                                         "Visibility": "Global"
                                     },
                                     {
+<<<<<<< HEAD
                                         "Folder": "footage",
                                         "Bookmarks": [
                                             {
@@ -120,6 +127,16 @@
                                                 "Visibility": "Global"
                                             }
                                         ]
+=======
+                                        "Bookmark": "footage_graded",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/footage_graded",
+                                        "Visibility": "Global"
+                                    },
+                                    {
+                                        "Bookmark": "footage_raw",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/footage_raw",
+                                        "Visibility": "Global"
+>>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb
                                     },
                                     {
                                         "Folder": "graphics",
@@ -202,6 +219,7 @@
                                         "Visibility": "Global"
                                     },
                                     {
+<<<<<<< HEAD
                                         "Folder": "rotoscope",
                                         "Bookmarks": [
                                             {
@@ -225,6 +243,41 @@
                                                 "Visibility": "Global"
                                             }
                                         ]
+=======
+                                        "Bookmark": "photoshop",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/photoshop",
+                                        "Visibility": "Global"
+                                    },
+                                    {
+                                        "Bookmark": "roto",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/roto",
+                                        "Visibility": "Global"
+                                    },
+                                    {
+                                        "Bookmark": "slates",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/slates",
+                                        "Visibility": "Global"
+                                    },
+                                    {
+                                        "Bookmark": "subtitles",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/subtitles",
+                                        "Visibility": "Global"
+                                    },
+                                    {
+                                        "Bookmark": "titles",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/titles",
+                                        "Visibility": "Global"
+                                    },
+                                    {
+                                        "Bookmark": "tracking",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/tracking",
+                                        "Visibility": "Global"
+                                    },
+                                    {
+                                        "Bookmark": "video",
+                                        "Path": "/PROJEKTS/10101010_logik_projekt_first_release/assets/video",
+                                        "Visibility": "Global"
+>>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb
                                     }
                                 ]
                             },
@@ -242,6 +295,7 @@
                                         "Visibility": "Global"
                                     },
                                     {
+<<<<<<< HEAD
                                         "Bookmark": "adobe_premiere",
                                         "Path": "/PROJEKTS/7759_lm_fy26_services/editorial/adobe_premiere",
                                         "Visibility": "Global"
@@ -257,16 +311,21 @@
                                         "Visibility": "Global"
                                     },
                                     {
+=======
+>>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb
                                         "Bookmark": "edl",
                                         "Path": "/PROJEKTS/7759_lm_fy26_services/editorial/edl",
                                         "Visibility": "Global"
                                     },
                                     {
+<<<<<<< HEAD
                                         "Bookmark": "final_cut_pro",
                                         "Path": "/PROJEKTS/7759_lm_fy26_services/editorial/final_cut_pro",
                                         "Visibility": "Global"
                                     },
                                     {
+=======
+>>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb
                                         "Bookmark": "prep",
                                         "Path": "/PROJEKTS/7759_lm_fy26_services/editorial/prep",
                                         "Visibility": "Global"

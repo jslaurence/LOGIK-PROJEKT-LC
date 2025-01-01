@@ -32,9 +32,9 @@
 # -------------------------------------------------------------------------- #
 
 # File Name:        wiretap_create_node.py
-# Version:          0.9.9
+# Version:          1.0.0
 # Created:          2024-01-19
-# Modified:         2024-08-31
+# Modified:         2024-12-25
 
 # ========================================================================== #
 # This section defines the import statements and directory paths.
@@ -222,12 +222,27 @@ def run_wiretap_create_node(the_projekt_flame_name, projekt_xml_path, separator)
 
     # ---------------------------------------------------------------------- #
 
+    # THIS IS THE COMMAND FOR 2025
+    
     # Create a logik projekt flame project node using wiretap
     /opt/Autodesk/wiretap/tools/current/wiretap_create_node \\
     -n /volumes/stonefs \\
     -d "{the_projekt_flame_name}" \\
     -s XML \\
     -f "{projekt_xml_path}"
+
+    # ---------------------------------------------------------------------- #
+
+    # # THIS IS THE COMMAND FOR 2026
+
+    # # Create a logik projekt flame project node using wiretap
+    # /opt/Autodesk/wiretap/tools/current/wiretap_create_node \\
+    # -h 127.0.0.1 \\
+    # -n /projects \\
+    # -t PROJECT \\
+    # -d "{the_projekt_flame_name}" \\
+    # -s XML \\
+    # -f "{projekt_xml_path}"
 
     # ---------------------------------------------------------------------- #
     """
@@ -283,4 +298,8 @@ if __name__ == "__main__":
 # version:          0.9.9
 # modified:         2024-08-31 - 16:51:09
 # comments:         prep for release - code appears to be functional
+# -------------------------------------------------------------------------- #
+# version:          1.0.0
+# modified:         2024-12-25 - 09:50:16
+# comments:         Preparation for future features
 # -------------------------------------------------------------------------- #

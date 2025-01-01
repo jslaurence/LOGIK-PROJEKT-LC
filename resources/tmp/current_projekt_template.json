@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "Serial Number: ": "7759",
     "Client Name: ": "lm",
     "Campaign Name: ": "fy26 services",
@@ -6,6 +7,15 @@
     "Resolution: ": "3840 x 2160 | UHDTV 4K 16:9",
     "Width: ": "3840",
     "Height: ": "2160",
+=======
+    "Serial Number: ": "1010",
+    "Client Name: ": "abc",
+    "Campaign Name: ": "def",
+    "Projekt Name: ": "1010_abc_def",
+    "Resolution: ": "1920 x 1080 | HD 1080 16:9",
+    "Width: ": "1920",
+    "Height: ": "1080",
+>>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb
     "Storage Aspect Ratio: ": "1.7777778",
     "Display Aspect Ratio: ": "1.7777778",
     "Pixel Aspect Ratio: ": "1.0",

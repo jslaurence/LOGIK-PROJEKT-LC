@@ -32,10 +32,10 @@
 
 # -------------------------------------------------------------------------- #
 
-# File Name:        sync_editorial_tree_premiere.py
-# Version:          0.9.0
+# File Name:        sync_editorial_tree_premiere_working.py
+# Version:          1.0.0
 # Created:          2024-10-31
-# Modified:         2024-10-31
+# Modified:         2024-12-25
 
 # ========================================================================== #
 # This section defines the import statements and directory paths.
@@ -134,20 +134,27 @@ separator = '# ' + '-' * 75 + ' #'
 # ========================================================================== #
 
 def sync_editorial_tree_premiere(
+        the_hostname,
+        the_projekt_os,
         the_projekts_dir,
+        the_projekt_flame_dirs,
+        the_adsk_dir,
+        the_adsk_dir_linux,
+        the_adsk_dir_macos,
         the_projekt_name,
         the_projekt_flame_name,
-        separator
+        the_sanitized_version,
+        separator,
     ):
     """
     Function to create the directory structure for Premiere projects,
     set up symbolic links to asset directories, and copy template resources.
     """
     
-    # Nested function to generate backup name with current date
-    def generate_backup_name(path):
-        date_str = datetime.datetime.now().strftime("%Y_%m_%d")
-        return f"{path}.{date_str}.bak"
+    # # Nested function to generate backup name with current date
+    # def generate_backup_name(path):
+    #     date_str = datetime.datetime.now().strftime("%Y_%m_%d")
+    #     return f"{path}.{date_str}.bak"
 
     # Define the base paths
     projekt_base = os.path.join(the_projekts_dir, the_projekt_name)
@@ -205,6 +212,29 @@ def sync_editorial_tree_premiere(
         {"src": f"{projekt_base}/masters", "dst": f"{premiere_dir}/08_postings/02_masters"}
     ]
 
+<<<<<<< HEAD
+=======
+    # # Define template directories to copy
+    # template_dirs = [
+    #     {
+    #         "src": os.path.join(resources_base, "adobe/premiere/premiere_templates/slates"),
+    #         "dst": f"{premiere_dir}/07_misc/04_slates"
+    #     },
+    #     {
+    #         "src": os.path.join(resources_base, "adobe/premiere/premiere_templates/aspect_ratio_masks"),
+    #         "dst": f"{premiere_dir}/07_misc/06_aspect_ratio_masks"
+    #     },
+    #     {
+    #         "src": os.path.join(resources_base, "adobe/premiere/premiere_presets/premiere_export_presets"),
+    #         "dst": f"{premiere_dir}/07_misc/01_export_presets"
+    #     },
+    #     {
+    #         "src": os.path.join(resources_base, "adobe/premiere/fonts"),
+    #         "dst": f"{premiere_dir}/07_misc/02_fonts"
+    #     }
+    # ]
+
+>>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb
     # Define template directories to copy
     template_dirs = [
         {
@@ -259,27 +289,36 @@ def sync_editorial_tree_premiere(
         #     print()
 
         # Create the directory
+<<<<<<< HEAD
         os.makedirs(folder_path, exist_ok=True)  # added exist_ok=True flag
+=======
+        os.makedirs(folder_path, exist_ok=True)  # Addendum: exist_ok=True
+
+>>>>>>> 17a09a690b6fe33d43c543450b267d855cf360eb
         print(f"  Created directory: {folder_path}")
 
     print("\n  Creating symbolic links...")
-    
+
     # Create symbolic links
     for link in symbolic_links:
         src_path = link["src"]
         dst_path = link["dst"]
-        
+
         # Create parent directory if it doesn't exist
         os.makedirs(os.path.dirname(dst_path), exist_ok=True)
-        
+
+        # # Remove existing symlink if it exists
+        # if os.path.islink(dst_path):
+        #     backup_path = generate_backup_name(dst_path)
+        #     print(f"  * Existing symlink found: {dst_path}")
+        #     print(f"  * Backing up to: {backup_path}")
+        #     os.rename(dst_path, backup_path)
+        #     print()
+
         # Remove existing symlink if it exists
         if os.path.islink(dst_path):
-            backup_path = generate_backup_name(dst_path)
-            print(f"  * Existing symlink found: {dst_path}")
-            print(f"  * Backing up to: {backup_path}")
-            os.rename(dst_path, backup_path)
-            print()
-        
+            os.unlink(dst_path)
+
         # Create the symbolic link
         try:
             if os.path.exists(src_path):
@@ -300,14 +339,18 @@ def sync_editorial_tree_premiere(
         # Create parent directory if it doesn't exist
         os.makedirs(os.path.dirname(dst_path), exist_ok=True)
 
-        # If destination exists, back it up
+        # # If destination exists, back it up
+        # if os.path.exists(dst_path):
+        #     backup_path = generate_backup_name(dst_path)
+        #     print(f"  * {dst_path} exists")
+        #     print(f"  * Backing up directory to:")
+        #     print(f"  *   {backup_path}")
+        #     shutil.move(dst_path, backup_path)
+        #     print()
+
+        # Remove existing directory if it exists
         if os.path.exists(dst_path):
-            backup_path = generate_backup_name(dst_path)
-            print(f"  * {dst_path} exists")
-            print(f"  * Backing up directory to:")
-            print(f"  *   {backup_path}")
-            shutil.move(dst_path, backup_path)
-            print()
+            shutil.rmtree(dst_path)
 
         # Copy the directory
         try:
@@ -331,10 +374,17 @@ def main():
 
     # Call the main sync function
     sync_editorial_tree_premiere(
+        the_hostname,
+        the_projekt_os,
         the_projekts_dir,
+        the_projekt_flame_dirs,
+        the_adsk_dir,
+        the_adsk_dir_linux,
+        the_adsk_dir_macos,
         the_projekt_name,
         the_projekt_flame_name,
-        separator
+        the_sanitized_version,
+        separator,
     )
 
 if __name__ == "__main__":
@@ -370,4 +420,8 @@ if __name__ == "__main__":
 # version:          0.9.9
 # modified:         2024-08-31 - 16:51:09
 # comments:         prep for release - code appears to be functional
+# -------------------------------------------------------------------------- #
+# version:          1.0.0
+# modified:         2024-12-25 - 09:50:15
+# comments:         Preparation for future features
 # -------------------------------------------------------------------------- #

@@ -32,9 +32,9 @@
 # -------------------------------------------------------------------------- #
 
 # File Name:        layout_left.py
-# Version:          0.9.9
+# Version:          1.0.0
 # Created:          2024-01-19
-# Modified:         2024-08-31
+# Modified:         2024-12-25
 
 # ========================================================================== #
 # This section defines the import statements and directory paths.
@@ -130,6 +130,10 @@ from modules.widgets.combo_box.scan_mode import WidgetScanMode
 from modules.widgets.combo_box.start_frame import WidgetStartFrame
 from modules.widgets.combo_box.init_config import WidgetInitConfig
 from modules.widgets.combo_box.color_science import WidgetColorScience
+from modules.widgets.line_edit.flame_projekt_directory import WidgetFlameProjektDirectory
+from modules.widgets.line_edit.flame_projekt_media_cache import WidgetFlameProjektMediaCache
+from modules.widgets.line_edit.flame_projekt_setups_dir import WidgetFlameProjektSetupsDir
+from modules.widgets.combo_box.ocio_config import WidgetOCIOConfig
 from modules.functions.string.string_utilities import string_clean
 from modules.functions.export.export_template import export_template_as_json
 from modules.widgets.style_sheet.projekt_style_sheet import (
@@ -255,9 +259,9 @@ class LayoutLeft(QWidget):
             (WidgetResolution(), QLabel()),
             (WidgetWidth(), QLabel()),
             (WidgetHeight(), QLabel()),
-            (WidgetStorageAspectRatio(), QLabel()),
-            (WidgetDisplayAspectRatio(), QLabel()),
-            (WidgetPixelAspectRatio(), QLabel()),
+            # (WidgetStorageAspectRatio(), QLabel()),
+            # (WidgetDisplayAspectRatio(), QLabel()),
+            # (WidgetPixelAspectRatio(), QLabel()),
             (WidgetAspectRatio(), QLabel()),
             (WidgetBitDepth(), QLabel()),
             (WidgetFrameRate(), QLabel()),
@@ -265,6 +269,10 @@ class LayoutLeft(QWidget):
             (WidgetStartFrame(), QLabel()),
             (WidgetInitConfig(), QLabel()),
             (WidgetColorScience(), QLabel()),
+            # (WidgetFlameProjektDirectory(), QLabel()),
+            # (WidgetFlameProjektMediaCache(), QLabel()),
+            # (WidgetFlameProjektSetupsDir(), QLabel()),
+            (WidgetOCIOConfig(), QLabel()),
         ]
 
         # Set minimum height for each widget and align labels and widgets horizontally
@@ -457,4 +465,8 @@ class LayoutLeft(QWidget):
 # version:          0.9.9
 # modified:         2024-08-31 - 16:51:09
 # comments:         prep for release - code appears to be functional
+# -------------------------------------------------------------------------- #
+# version:          1.0.0
+# modified:         2024-12-25 - 09:50:18
+# comments:         Preparation for future features
 # -------------------------------------------------------------------------- #
