@@ -5,12 +5,12 @@
 # ========================================================================== #
 
 # Launcher Script Name:  %%LAUNCHER_SCRIPT_NAME%%
-# Launcher Script for:   456_adsf_sldfkj_2026_1_LC-MBPM4
-# Script Creation Date:  2025-10-01 23:04:01
+# Launcher Script for:   250913_logik_ibc25-skin_2026_1_LC-MBPM4
+# Script Creation Date:  2025-09-07 19:34:45
 
-the_projekt_name="456_adsf_sldfkj"
+the_projekt_name="250913_logik_ibc25-skin"
 
-the_projekt_flame_name="456_adsf_sldfkj_2026_1_LC-MBPM4"
+the_projekt_flame_name="250913_logik_ibc25-skin_2026_1_LC-MBPM4"
 
 flame_workstation_name="LC-MBPM4"
 
@@ -19,7 +19,7 @@ flame_workstation_name="LC-MBPM4"
 # ========================================================================== #
 
 # Define the the_flame_first_run_log
-the_flame_first_run_log_dir="/PROJEKTS/456_adsf_sldfkj/cfg/log"
+the_flame_first_run_log_dir="/PROJEKTS/250913_logik_ibc25-skin/cfg/log"
 mkdir -p "$the_flame_first_run_log_dir"
 the_flame_first_run_log_name="current_session-flame_launcher.log"
 the_flame_first_run_log="$the_flame_first_run_log_dir/$the_flame_first_run_log_name"
@@ -35,7 +35,7 @@ execute_command() {
 
 # Construct the flame launch command.
 launch_opt_1="/opt/Autodesk/flame_2026.1/bin/startFlame"
-launch_opt_2="-J 456_adsf_sldfkj_2026_1_LC-MBPM4"
+launch_opt_2="-J 250913_logik_ibc25-skin_2026_1_LC-MBPM4"
 launch_opt_3="--start-workspace=\"LC-MBPM4\" --create-workspace"
 # logik_projekt_python_dir="/opt/Autodesk/shared/python/logik_projekt"
 # projekt_tool_dir="projekt_tools/logik_projekt_layout/scripts"
@@ -43,7 +43,7 @@ launch_opt_3="--start-workspace=\"LC-MBPM4\" --create-workspace"
 # launch_script="create_projekt_layout.py"
 # launch_opt_4="--execute-python-script=$projekt_tool_path/$launch_script"
 
-flame_startup_script_dir="/var/opt/Autodesk/flame/projects/456_adsf_sldfkj_2026_1_LC-MBPM4/setups"
+flame_startup_script_dir="/var/opt/Autodesk/flame/projects/250913_logik_ibc25-skin_2026_1_LC-MBPM4/setups"
 launch_script="scripts/startup/flame_startup_script.py"
 launch_opt_4="--execute-python-script=$flame_startup_script_dir/$launch_script"
 launch_opt_5="--debug"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LOGIK-PROJEKT
+Comment=This application will create a brand new PROJEKT
+Version=2026.1.0
+Exec=/Users/Josh/Desktop/Autodesk/Projekt/LOGIK-PROJEKT-LC/run_logikprojekt_linux.sh
+Icon=/Users/Josh/Desktop/Autodesk/Projekt/LOGIK-PROJEKT-LC/cfg/site-cfg/logik-projekt-cfg/icons/logik_projekt_icon_01.png
+Type=Application
+Terminal=True
