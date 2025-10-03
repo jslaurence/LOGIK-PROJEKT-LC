@@ -54,7 +54,7 @@ def copy_current_session_files(
             repository_root_dir / GetApplicationPaths.SESSION_PREFERENCES_DIR
             )
         session_files_destination = (
-            Path(logik_projekt_path) / "logs" / current_workstation
+            Path(logik_projekt_path) / "support" / "logs" / current_workstation
         )
 
         # Create the destination directory if it doesn't exist
