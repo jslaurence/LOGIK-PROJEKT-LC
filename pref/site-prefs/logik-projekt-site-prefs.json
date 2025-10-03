@@ -17,6 +17,12 @@
       "PROJEKT Filesystem Tree": "pref/site-prefs/custom-prefs/laurence-creative/filesystem-tree.json",
       "PROJEKT Flame Workspace": "pref/site-prefs/custom-prefs/laurence-creative/flame-workspace.json",
       "PROJEKT Flame Bookmarks": "pref/site-prefs/custom-prefs/laurence-creative/cf_bookmarks.json"
+    },
+    {
+      "PROJEKT Configuration Name": "template test",
+      "PROJEKT Filesystem Tree": "pref/site-prefs/custom-prefs/template test/filesystem-tree.json",
+      "PROJEKT Flame Workspace": "pref/site-prefs/custom-prefs/template test/flame-workspace.json",
+      "PROJEKT Flame Bookmarks": "pref/site-prefs/custom-prefs/template test/cf_bookmarks.json"
     }
   ]
 }

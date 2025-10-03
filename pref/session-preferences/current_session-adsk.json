@@ -1,8 +1,8 @@
 {
-    "Name": "123_456n_2026_1_LC-MBPM4",
-    "ProjectDir": "/var/opt/Autodesk/flame/projects/123_456n_2026_1_LC-MBPM4",
-    "SetupDir": "/var/opt/Autodesk/flame/projects/123_456n_2026_1_LC-MBPM4/setups",
-    "MediaDir": "/var/opt/Autodesk/flame/projects/123_456n_2026_1_LC-MBPM4/media",
+    "Name": "123_456r_2026_1_LC-MBPM4",
+    "ProjectDir": "/var/opt/Autodesk/flame/projects/123_456r_2026_1_LC-MBPM4",
+    "SetupDir": "/var/opt/Autodesk/flame/projects/123_456r_2026_1_LC-MBPM4/setups",
+    "MediaDir": "/var/opt/Autodesk/flame/projects/123_456r_2026_1_LC-MBPM4/media",
     "Resolution": {
         "FrameWidth": 3840,
         "FrameHeight": 2160,

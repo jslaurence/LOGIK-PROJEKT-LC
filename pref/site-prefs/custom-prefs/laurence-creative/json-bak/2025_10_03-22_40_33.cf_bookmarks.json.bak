@@ -892,6 +892,96 @@
                                 "Folder": "support",
                                 "Bookmarks": [
                                     {
+                                        "Folder": "backup",
+                                        "Bookmarks": [
+                                            {
+                                                "Folder": "backup-scripts",
+                                                "Bookmarks": [
+                                                    {
+                                                        "Bookmark": "LC-MBPM4",
+                                                        "Path": "/PROJEKTS/<project nickname>/support/backup/backup-scripts/LC-MBPM4",
+                                                        "Visibility": "Global"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Folder": "cfg",
+                                        "Bookmarks": [
+                                            {
+                                                "Bookmark": "log",
+                                                "Path": "/PROJEKTS/<project nickname>/support/cfg/log",
+                                                "Visibility": "Global"
+                                            },
+                                            {
+                                                "Bookmark": "pref",
+                                                "Path": "/PROJEKTS/<project nickname>/support/cfg/pref",
+                                                "Visibility": "Global"
+                                            },
+                                            {
+                                                "Bookmark": "template",
+                                                "Path": "/PROJEKTS/<project nickname>/support/cfg/template",
+                                                "Visibility": "Global"
+                                            },
+                                            {
+                                                "Folder": "workstation",
+                                                "Bookmarks": [
+                                                    {
+                                                        "Bookmark": "juliet",
+                                                        "Path": "/PROJEKTS/<project nickname>/support/cfg/workstation/juliet",
+                                                        "Visibility": "Global"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Folder": "flame",
+                                        "Bookmarks": [
+                                            {
+                                                "Folder": "archive",
+                                                "Bookmarks": [
+                                                    {
+                                                        "Bookmark": "LC-MBPM4",
+                                                        "Path": "/PROJEKTS/<project nickname>/support/flame/archive/LC-MBPM4",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "scripts",
+                                                        "Path": "/PROJEKTS/<project nickname>/support/flame/archive/scripts",
+                                                        "Visibility": "Global"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Bookmark": "iterations",
+                                                "Path": "/PROJEKTS/<project nickname>/support/flame/iterations",
+                                                "Visibility": "Global"
+                                            },
+                                            {
+                                                "Folder": "setups",
+                                                "Bookmarks": [
+                                                    {
+                                                        "Bookmark": "LC-MBPM4",
+                                                        "Path": "/PROJEKTS/<project nickname>/support/flame/setups/LC-MBPM4",
+                                                        "Visibility": "Global"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Folder": "logs",
+                                        "Bookmarks": [
+                                            {
+                                                "Bookmark": "LC-MBPM4",
+                                                "Path": "/PROJEKTS/<project nickname>/support/logs/LC-MBPM4",
+                                                "Visibility": "Global"
+                                            }
+                                        ]
+                                    },
+                                    {
                                         "Folder": "software",
                                         "Bookmarks": [
                                             {

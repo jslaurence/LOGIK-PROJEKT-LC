@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "created_at": "2025-10-03T22:41:05.382102",
+    "created_at": "2025-10-03T21:36:29.525691",
     "created_by": "directory_structure_to_json",
     "version": "1.0"
   },
@@ -11,9 +11,9 @@
     "root_directory": "laurence-creative"
   },
   "analysis": {
-    "timestamp": "2025_10_03-22_41_05",
-    "total_subdirectories": 199,
-    "processed_subdirectories": 199
+    "timestamp": "2025_10_03-21_36_29",
+    "total_subdirectories": 217,
+    "processed_subdirectories": 217
   },
   "subdirectories": [
     {
@@ -1406,6 +1406,150 @@
       "depth": 1,
       "hasChildren": true,
       "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "support/backup",
+      "name": "backup",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "support",
+      "type": "directory"
+    },
+    {
+      "path": "support/backup/backup-scripts",
+      "name": "backup-scripts",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "backup",
+      "type": "directory"
+    },
+    {
+      "path": "support/backup/backup-scripts/LC-MBPM4",
+      "name": "LC-MBPM4",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "backup-scripts",
+      "type": "directory"
+    },
+    {
+      "path": "support/cfg",
+      "name": "cfg",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "support",
+      "type": "directory"
+    },
+    {
+      "path": "support/cfg/log",
+      "name": "log",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "cfg",
+      "type": "directory"
+    },
+    {
+      "path": "support/cfg/pref",
+      "name": "pref",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "cfg",
+      "type": "directory"
+    },
+    {
+      "path": "support/cfg/template",
+      "name": "template",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "cfg",
+      "type": "directory"
+    },
+    {
+      "path": "support/cfg/workstation",
+      "name": "workstation",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "cfg",
+      "type": "directory"
+    },
+    {
+      "path": "support/cfg/workstation/juliet",
+      "name": "juliet",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "workstation",
+      "type": "directory"
+    },
+    {
+      "path": "support/flame",
+      "name": "flame",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "support",
+      "type": "directory"
+    },
+    {
+      "path": "support/flame/archive",
+      "name": "archive",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "flame",
+      "type": "directory"
+    },
+    {
+      "path": "support/flame/archive/LC-MBPM4",
+      "name": "LC-MBPM4",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "archive",
+      "type": "directory"
+    },
+    {
+      "path": "support/flame/archive/scripts",
+      "name": "scripts",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "archive",
+      "type": "directory"
+    },
+    {
+      "path": "support/flame/iterations",
+      "name": "iterations",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "flame",
+      "type": "directory"
+    },
+    {
+      "path": "support/flame/setups",
+      "name": "setups",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "flame",
+      "type": "directory"
+    },
+    {
+      "path": "support/flame/setups/LC-MBPM4",
+      "name": "LC-MBPM4",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "setups",
+      "type": "directory"
+    },
+    {
+      "path": "support/logs",
+      "name": "logs",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "support",
+      "type": "directory"
+    },
+    {
+      "path": "support/logs/LC-MBPM4",
+      "name": "LC-MBPM4",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "logs",
       "type": "directory"
     },
     {
