@@ -55,6 +55,7 @@ def create_flame_archive_script(projekt_summary_data: dict):
 
     tgt_workstation_flame_archive_dir = os.path.join(
         the_projekt_dir,
+        'support',
         'flame',
         'archive',
         projekt_summary_data['current_workstation'],

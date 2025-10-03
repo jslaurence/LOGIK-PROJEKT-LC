@@ -1,103 +1,98 @@
 [
   {
-    "type": "desktop",
-    "name_template": "DT_conforms"
-  },
-  {
-    "type": "desktop_contents",
-    "items": [
-      {
-        "type": "reel_group",
-        "name": "conform reels",
-        "reels": [
-          {
-            "type": "reel",
-            "name": "reference-edits",
-            "colour": [0.150, 0.110, 0.050]
-          },
-          {
-            "type": "reel",
-            "name": "graphics",
-            "colour": [0.150, 0.080, 0.050]
-          },
-          {
-            "type": "reel",
-            "name": "sequences",
-            "reel_type": "Sequence",
-            "colour": [0.150, 0.050, 0.050]
-          },
-          {
-            "type": "reel",
-            "name": "out-postings",
-            "reel_type": "reel",
-            "colour": [0.150, 0.050, 0.110]
-          },
-          {
-            "type": "reel",
-            "name": "Sources",
-            "colour": [0.110, 0.150, 0.050]
-          }
-        ]
-      },
-      {
-        "type": "batch_group",
-        "name": "Default Batch Group"
-      },
-      {
-        "type": "reel",
-        "name": "My Schematic Reel",
-        "reel_type": "Schematic"
-      }
-    ]
-  },
-  {
     "type": "library",
-    "name": "Project_Library",
-    "colour": [0.8, 0.5, 0.2],
-    "tags": ["Active", "Editorial"],
+    "name": "laurence-creative Library",
     "expanded": true,
     "children": [
       {
         "type": "folder",
-        "name": "Graphics",
+        "name": "assets",
         "children": [
           {
             "type": "reel",
-            "name": "Elements"
+            "name": "3d"
           },
           {
             "type": "reel",
-            "name": "Renders"
+            "name": "audio"
+          },
+          {
+            "type": "reel",
+            "name": "editorial"
+          },
+          {
+            "type": "reel",
+            "name": "fonts"
+          },
+          {
+            "type": "reel",
+            "name": "footage"
+          },
+          {
+            "type": "reel",
+            "name": "reference"
           }
         ]
       },
       {
         "type": "folder",
-        "name": "Plates"
-      },
-      {
-        "type": "folder",
-        "name": "Delivery",
+        "name": "from_client",
         "children": [
           {
-            "type": "reel_group",
-            "name": "Masters",
-            "reel_names": ["Master_v1", "Master_v2", "Master_v3"]
+            "type": "reel",
+            "name": "docs"
           }
         ]
       },
       {
-        "type": "reel_group",
-        "name": "Timelines"
+        "type": "folder",
+        "name": "out",
+        "children": [
+          {
+            "type": "reel",
+            "name": "delivery"
+          },
+          {
+            "type": "reel",
+            "name": "postings"
+          }
+        ]
       },
       {
-        "type": "reel",
-        "name": "Timeline_Reel"
+        "type": "folder",
+        "name": "shots",
+        "children": []
+      },
+      {
+        "type": "folder",
+        "name": "support",
+        "children": [
+          {
+            "type": "reel",
+            "name": "backup"
+          },
+          {
+            "type": "reel",
+            "name": "cfg"
+          },
+          {
+            "type": "reel",
+            "name": "flame"
+          },
+          {
+            "type": "reel",
+            "name": "logs"
+          },
+          {
+            "type": "reel",
+            "name": "software"
+          },
+          {
+            "type": "reel",
+            "name": "utilities"
+          }
+        ]
       }
     ]
-  },
-  {
-    "type": "library",
-    "name": "Archives"
   }
 ]
