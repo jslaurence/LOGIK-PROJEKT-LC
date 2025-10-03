@@ -30,6 +30,10 @@
           },
           {
             "type": "reel",
+            "name": "graphics"
+          },
+          {
+            "type": "reel",
             "name": "reference"
           }
         ]

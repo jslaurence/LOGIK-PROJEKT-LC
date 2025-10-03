@@ -55,6 +55,11 @@
                                                 "Visibility": "Global"
                                             },
                                             {
+                                                "Bookmark": "cut",
+                                                "Path": "/PROJEKTS/<project nickname>/assets/3d/cut",
+                                                "Visibility": "Global"
+                                            },
+                                            {
                                                 "Bookmark": "fbx",
                                                 "Path": "/PROJEKTS/<project nickname>/assets/3d/fbx",
                                                 "Visibility": "Global"
@@ -63,6 +68,61 @@
                                                 "Bookmark": "geometry",
                                                 "Path": "/PROJEKTS/<project nickname>/assets/3d/geometry",
                                                 "Visibility": "Global"
+                                            },
+                                            {
+                                                "Folder": "graphics",
+                                                "Bookmarks": [
+                                                    {
+                                                        "Bookmark": "artwork",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/artwork",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "cgi",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/cgi",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "images",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/images",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "legal",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/legal",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "paint",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/paint",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "photoshop",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/photoshop",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "slates",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/slates",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "subtitles",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/subtitles",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "supers",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/supers",
+                                                        "Visibility": "Global"
+                                                    },
+                                                    {
+                                                        "Bookmark": "titles",
+                                                        "Path": "/PROJEKTS/<project nickname>/assets/3d/graphics/titles",
+                                                        "Visibility": "Global"
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "Bookmark": "houdini",
@@ -257,61 +317,6 @@
                                             {
                                                 "Bookmark": "transcodes",
                                                 "Path": "/PROJEKTS/<project nickname>/assets/footage/transcodes",
-                                                "Visibility": "Global"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "Folder": "graphics",
-                                        "Bookmarks": [
-                                            {
-                                                "Bookmark": "artwork",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/artwork",
-                                                "Visibility": "Global"
-                                            },
-                                            {
-                                                "Bookmark": "cgi",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/cgi",
-                                                "Visibility": "Global"
-                                            },
-                                            {
-                                                "Bookmark": "images",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/images",
-                                                "Visibility": "Global"
-                                            },
-                                            {
-                                                "Bookmark": "legal",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/legal",
-                                                "Visibility": "Global"
-                                            },
-                                            {
-                                                "Bookmark": "paint",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/paint",
-                                                "Visibility": "Global"
-                                            },
-                                            {
-                                                "Bookmark": "photoshop",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/photoshop",
-                                                "Visibility": "Global"
-                                            },
-                                            {
-                                                "Bookmark": "slates",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/slates",
-                                                "Visibility": "Global"
-                                            },
-                                            {
-                                                "Bookmark": "subtitles",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/subtitles",
-                                                "Visibility": "Global"
-                                            },
-                                            {
-                                                "Bookmark": "supers",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/supers",
-                                                "Visibility": "Global"
-                                            },
-                                            {
-                                                "Bookmark": "titles",
-                                                "Path": "/PROJEKTS/<project nickname>/assets/graphics/titles",
                                                 "Visibility": "Global"
                                             }
                                         ]

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "created_at": "2025-10-04T00:00:00.227545",
+    "created_at": "2025-10-03T22:41:05.382102",
     "created_by": "directory_structure_to_json",
     "version": "1.0"
   },
@@ -11,9 +11,9 @@
     "root_directory": "laurence-creative"
   },
   "analysis": {
-    "timestamp": "2025_10_04-00_00_00",
-    "total_subdirectories": 198,
-    "processed_subdirectories": 198
+    "timestamp": "2025_10_03-22_41_05",
+    "total_subdirectories": 199,
+    "processed_subdirectories": 199
   },
   "subdirectories": [
     {
@@ -73,6 +73,14 @@
       "type": "directory"
     },
     {
+      "path": "assets/3d/cut",
+      "name": "cut",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "3d",
+      "type": "directory"
+    },
+    {
       "path": "assets/3d/fbx",
       "name": "fbx",
       "depth": 3,
@@ -86,6 +94,94 @@
       "depth": 3,
       "hasChildren": false,
       "parent": "3d",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics",
+      "name": "graphics",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "3d",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/artwork",
+      "name": "artwork",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/cgi",
+      "name": "cgi",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/images",
+      "name": "images",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/legal",
+      "name": "legal",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/paint",
+      "name": "paint",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/photoshop",
+      "name": "photoshop",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/slates",
+      "name": "slates",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/subtitles",
+      "name": "subtitles",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/supers",
+      "name": "supers",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
+      "type": "directory"
+    },
+    {
+      "path": "assets/3d/graphics/titles",
+      "name": "titles",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "graphics",
       "type": "directory"
     },
     {
@@ -398,94 +494,6 @@
       "depth": 3,
       "hasChildren": false,
       "parent": "footage",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics",
-      "name": "graphics",
-      "depth": 2,
-      "hasChildren": true,
-      "parent": "assets",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/artwork",
-      "name": "artwork",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/cgi",
-      "name": "cgi",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/images",
-      "name": "images",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/legal",
-      "name": "legal",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/paint",
-      "name": "paint",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/photoshop",
-      "name": "photoshop",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/slates",
-      "name": "slates",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/subtitles",
-      "name": "subtitles",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/supers",
-      "name": "supers",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
-      "type": "directory"
-    },
-    {
-      "path": "assets/graphics/titles",
-      "name": "titles",
-      "depth": 3,
-      "hasChildren": false,
-      "parent": "graphics",
       "type": "directory"
     },
     {

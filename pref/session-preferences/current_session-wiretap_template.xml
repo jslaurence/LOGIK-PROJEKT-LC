@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Project>
-  <Name>123_456u_2026_1_LC-MBPM4</Name>
-  <Nickname>123_456u</Nickname>
-  <ShotgunProjectName>123_456u</ShotgunProjectName>
+  <Name>123_456v_2026_1_LC-MBPM4</Name>
+  <Nickname>123_456v</Nickname>
+  <ShotgunProjectName>123_456v</ShotgunProjectName>
   <Description />
-  <CatalogDir>/var/opt/Autodesk/flame/projects/123_456u_2026_1_LC-MBPM4/catalog</CatalogDir>
-  <ProjectDir>/var/opt/Autodesk/flame/projects/123_456u_2026_1_LC-MBPM4</ProjectDir>
-  <SetupDir>/var/opt/Autodesk/flame/projects/123_456u_2026_1_LC-MBPM4/setups</SetupDir>
-  <MediaDir>/var/opt/Autodesk/flame/projects/123_456u_2026_1_LC-MBPM4/media</MediaDir>
+  <CatalogDir>/var/opt/Autodesk/flame/projects/123_456v_2026_1_LC-MBPM4/catalog</CatalogDir>
+  <ProjectDir>/var/opt/Autodesk/flame/projects/123_456v_2026_1_LC-MBPM4</ProjectDir>
+  <SetupDir>/var/opt/Autodesk/flame/projects/123_456v_2026_1_LC-MBPM4/setups</SetupDir>
+  <MediaDir>/var/opt/Autodesk/flame/projects/123_456v_2026_1_LC-MBPM4/media</MediaDir>
   <Version>2026.1</Version>
   <FrameWidth>3840</FrameWidth>
   <FrameHeight>2160</FrameHeight>
