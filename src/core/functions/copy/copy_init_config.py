@@ -44,7 +44,7 @@ def copy_init_config(init_config_filename: str, setups_dir: str, flame_projekt_n
             logger.warning(f"Source init.cfg file not found: {source_path}")
             return
 
-        destination_dir = Path(setups_dir) / 'cfg'
+        destination_dir = Path(setups_dir) / 'support' / 'cfg'
         destination_path = destination_dir / f"{flame_projekt_name}.cfg"
 
         logger.info(f"Copying init.cfg from '{source_path}' to '{destination_path}'")

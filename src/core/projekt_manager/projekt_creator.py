@@ -128,6 +128,7 @@ class ProjektCreator:
         iterations_dir = (
             os.path.join(
                 config.logik_projekt_path,
+                "support",
                 "flame",
                 "iterations"
             )
