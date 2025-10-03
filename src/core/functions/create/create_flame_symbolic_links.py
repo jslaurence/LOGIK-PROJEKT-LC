@@ -141,10 +141,10 @@ def create_flame_symbolic_links(
             f"An unexpected error occurred while creating symlink for {source_path_iterations} to {destination_path_iterations}: {e}"
         )
 
-    # Create flame_projekt_setups_dir -> logik_projekt_path/flame/{current_workstation}/setups
+    # Create flame_projekt_setups_dir -> logik_projekt_path/support/flame/setups/{current_workstation}/setups
     source_path_setups = flame_projekt_setups_dir
     destination_path_setups = os.path.join(
-        logik_projekt_path, "flame", "setups", current_workstation, "setups"
+        logik_projekt_path, "support", "flame", "setups", current_workstation, "setups"
     )
 
     # Ensure the parent directory of the destination exists
