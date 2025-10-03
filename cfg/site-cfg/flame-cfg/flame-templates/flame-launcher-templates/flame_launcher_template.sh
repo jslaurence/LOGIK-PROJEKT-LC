@@ -19,7 +19,7 @@ flame_workstation_name="%%CURRENT_WORKSTATION%%"
 # ========================================================================== #
 
 # Define the the_flame_first_run_log
-the_flame_first_run_log_dir="%%LOGIK_PROJEKT_PATH%%/cfg/log"
+the_flame_first_run_log_dir="%%LOGIK_PROJEKT_PATH%%/support/log"
 mkdir -p "$the_flame_first_run_log_dir"
 the_flame_first_run_log_name="%%FLAME_FIRST_RUN_NAME%%"
 the_flame_first_run_log="$the_flame_first_run_log_dir/$the_flame_first_run_log_name"
