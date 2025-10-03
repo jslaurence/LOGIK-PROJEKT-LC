@@ -73,6 +73,9 @@ try:
     from src.utils.common.create.directory_structure_to_bookmarks import (
         directory_structure_to_bookmarks
     )
+    from src.utils.common.create.directory_structure_to_workspace import (
+        directory_structure_to_workspace
+    )
     CUSTOM_MODULES_AVAILABLE = True
 except ImportError as e:
     print(f"Warning: Custom modules not available: {e}")
@@ -266,7 +269,7 @@ def _handle_file_backups(json_file, json_file_bak, bookmarks_file, bookmarks_fil
       
         _print_separator_line()
 
-def _process_directory_structure(chosen_folder, json_file, bookmarks_file):
+def _process_directory_structure(chosen_folder, json_file, bookmarks_file, workspace_file):
     """Processes the chosen directory structure to generate JSON and bookmarks files."""
     if not CUSTOM_MODULES_AVAILABLE:
         logging.error("Custom modules required for directory structure processing are not available.")
@@ -305,6 +308,7 @@ def _process_directory_structure(chosen_folder, json_file, bookmarks_file):
 
         directory_structure_to_json(json_data_file, json_file, chosen_folder)
         directory_structure_to_bookmarks(json_data_file, bookmarks_file, chosen_folder)
+        directory_structure_to_workspace(json_file, workspace_file, chosen_folder)
 
     except Exception as e:
         logging.error(f"Error processing directory structure: {e}")
@@ -338,33 +342,6 @@ def _setup_output_paths_and_backups(repo_dir, new_filesystem_tree_path, new_flam
 
     _handle_file_backups(json_file, json_file_bak, bookmarks_file, bookmarks_file_bak)
     return json_file, bookmarks_file, json_file_bak, bookmarks_file_bak
-
-def _copy_workspace_template(repo_dir, new_flame_workspace_path, projekt_now):
-    """Copies the flame workspace template to the target directory."""
-    source_file = Path(repo_dir) / "cfg/site-cfg/flame-cfg/flame-templates/flame-workspace-templates/flame-workspace-template.json"
-    # Construct destination path using the directory from new_flame_workspace_path
-    dest_dir = (Path(repo_dir) / new_flame_workspace_path).parent
-    dest_file = dest_dir / "flame-workspace.json"
-
-    if not source_file.is_file():
-        logging.error(f"Source workspace template not found: {source_file}")
-        return
-
-    try:
-        dest_dir.mkdir(parents=True, exist_ok=True)
-
-        if dest_file.is_file():
-            backup_dir = dest_dir / JSON_BAK_DIR_NAME
-            backup_dir.mkdir(exist_ok=True)
-            backup_file = backup_dir / f"{projekt_now}.{dest_file.name}.bak"
-            logging.info(f"Backing up existing workspace file to {backup_file}")
-            shutil.copy2(dest_file, backup_file)
-
-        shutil.copy2(source_file, dest_file)
-        logging.info(f"Copied workspace template to {dest_file}")
-
-    except (IOError, OSError) as e:
-        logging.error(f"Could not copy workspace template: {e}")
 
 def main():
     """Main function to run the script."""
@@ -427,9 +404,11 @@ def main():
         repo_dir, new_filesystem_tree_path, new_flame_bookmarks_path, projekt_now
     )
 
-    _process_directory_structure(chosen_folder, json_file, bookmarks_file)
+    workspace_file = Path(repo_dir) / new_flame_workspace_path
 
-    _copy_workspace_template(repo_dir, new_flame_workspace_path, projekt_now)
+    _process_directory_structure(chosen_folder, json_file, bookmarks_file, workspace_file)
+
+
 
     _print_separator_line()
     logging.info("  directory structure analysis complete.")
