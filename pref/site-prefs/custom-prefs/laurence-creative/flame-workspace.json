@@ -1,29 +1,47 @@
 [
   {
     "type": "desktop",
-    "name_template": "{date}-{user}"
+    "name_template": "DT_conforms"
   },
   {
     "type": "desktop_contents",
     "items": [
       {
         "type": "reel_group",
-        "name": "My Reel Group",
+        "name": "conform reels",
         "reels": [
           {
             "type": "reel",
-            "name": "Reel A"
+            "name": "reference-edits",
+            "colour": [0.150, 0.110, 0.050]
           },
           {
             "type": "reel",
-            "name": "Reel B",
-            "reel_type": "Sequence"
+            "name": "graphics",
+            "colour": [0.150, 0.080, 0.050]
+          },
+          {
+            "type": "reel",
+            "name": "sequences",
+            "reel_type": "Sequence",
+            "colour": [0.150, 0.050, 0.050]
+          },
+          {
+            "type": "reel",
+            "name": "out-postings",
+            "reel_type": "reel",
+            "colour": [0.150, 0.050, 0.110]
+          },
+          {
+            "type": "reel",
+            "name": "Sources",
+            "colour": [0.110, 0.150, 0.050]
           }
         ]
       },
       {
         "type": "batch_group",
-        "name": "My Batch Group"
+        "name": "Default Batch Group"
       },
       {
         "type": "reel",

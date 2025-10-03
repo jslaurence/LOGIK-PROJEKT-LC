@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Project>
-  <Name>456_adsf_sldfkj_2026_1_LC-MBPM4</Name>
-  <Nickname>456_adsf_sldfkj</Nickname>
-  <ShotgunProjectName>456_adsf_sldfkj</ShotgunProjectName>
+  <Name>123_456m_2026_1_LC-MBPM4</Name>
+  <Nickname>123_456m</Nickname>
+  <ShotgunProjectName>123_456m</ShotgunProjectName>
   <Description />
-  <CatalogDir>/var/opt/Autodesk/flame/projects/456_adsf_sldfkj_2026_1_LC-MBPM4/catalog</CatalogDir>
-  <ProjectDir>/var/opt/Autodesk/flame/projects/456_adsf_sldfkj_2026_1_LC-MBPM4</ProjectDir>
-  <SetupDir>/var/opt/Autodesk/flame/projects/456_adsf_sldfkj_2026_1_LC-MBPM4/setups</SetupDir>
-  <MediaDir>/var/opt/Autodesk/flame/projects/456_adsf_sldfkj_2026_1_LC-MBPM4/media</MediaDir>
+  <CatalogDir>/var/opt/Autodesk/flame/projects/123_456m_2026_1_LC-MBPM4/catalog</CatalogDir>
+  <ProjectDir>/var/opt/Autodesk/flame/projects/123_456m_2026_1_LC-MBPM4</ProjectDir>
+  <SetupDir>/var/opt/Autodesk/flame/projects/123_456m_2026_1_LC-MBPM4/setups</SetupDir>
+  <MediaDir>/var/opt/Autodesk/flame/projects/123_456m_2026_1_LC-MBPM4/media</MediaDir>
   <Version>2026.1</Version>
   <FrameWidth>3840</FrameWidth>
   <FrameHeight>2160</FrameHeight>
@@ -16,7 +16,7 @@
   <FieldDominance>PROGRESSIVE</FieldDominance>
   <ColourPolicyName>ACES 2.0</ColourPolicyName>
   <OCIOConfigFile>/opt/Autodesk/colour_mgmt/configs/flame_configs/2026.0/aces2.0_config/config.ocio</OCIOConfigFile>
-  <IntermediatesProfile>2:1185912</IntermediatesProfile>
+  <IntermediatesProfile>2:596088</IntermediatesProfile>
   <FrameRate>23.976 fps</FrameRate>
   <DefaultStartFrame>1001</DefaultStartFrame>
 </Project>
