@@ -93,7 +93,7 @@ def copy_current_session_files(
 
         latest_log_file = max(log_files, key=os.path.getmtime)
         log_file_destination = (
-            Path(logik_projekt_path) / "logs" / current_workstation
+            Path(logik_projekt_path) / "support" / "logs" / current_workstation
         )
 
         if os.path.exists(latest_log_file):
