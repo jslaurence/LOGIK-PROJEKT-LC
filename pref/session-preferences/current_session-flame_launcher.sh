@@ -5,12 +5,12 @@
 # ========================================================================== #
 
 # Launcher Script Name:  %%LAUNCHER_SCRIPT_NAME%%
-# Launcher Script for:   123_456w_2026_1_LC-MBPM4
-# Script Creation Date:  2025-10-04 00:04:34
+# Launcher Script for:   7776_hw_valentine25_2026_1_LC-MBPM4
+# Script Creation Date:  2025-10-05 15:22:50
 
-the_projekt_name="123_456w"
+the_projekt_name="7776_hw_valentine25"
 
-the_projekt_flame_name="123_456w_2026_1_LC-MBPM4"
+the_projekt_flame_name="7776_hw_valentine25_2026_1_LC-MBPM4"
 
 flame_workstation_name="LC-MBPM4"
 
@@ -19,7 +19,7 @@ flame_workstation_name="LC-MBPM4"
 # ========================================================================== #
 
 # Define the the_flame_first_run_log
-the_flame_first_run_log_dir="/PROJEKTS/123_456w/support/log"
+the_flame_first_run_log_dir="/PROJEKTS/7776_hw_valentine25/support/log"
 mkdir -p "$the_flame_first_run_log_dir"
 the_flame_first_run_log_name="current_session-flame_launcher.log"
 the_flame_first_run_log="$the_flame_first_run_log_dir/$the_flame_first_run_log_name"
@@ -35,7 +35,7 @@ execute_command() {
 
 # Construct the flame launch command.
 launch_opt_1="/opt/Autodesk/flame_2026.1/bin/startFlame"
-launch_opt_2="-J 123_456w_2026_1_LC-MBPM4"
+launch_opt_2="-J 7776_hw_valentine25_2026_1_LC-MBPM4"
 launch_opt_3="--start-workspace=\"LC-MBPM4\" --create-workspace"
 # logik_projekt_python_dir="/opt/Autodesk/shared/python/logik_projekt"
 # projekt_tool_dir="projekt_tools/logik_projekt_layout/scripts"
@@ -43,7 +43,7 @@ launch_opt_3="--start-workspace=\"LC-MBPM4\" --create-workspace"
 # launch_script="create_projekt_layout.py"
 # launch_opt_4="--execute-python-script=$projekt_tool_path/$launch_script"
 
-flame_startup_script_dir="/var/opt/Autodesk/flame/projects/123_456w_2026_1_LC-MBPM4/setups"
+flame_startup_script_dir="/var/opt/Autodesk/flame/projects/7776_hw_valentine25_2026_1_LC-MBPM4/setups"
 launch_script="scripts/startup/flame_startup_script.py"
 launch_opt_4="--execute-python-script=$flame_startup_script_dir/$launch_script"
 launch_opt_5="--debug"
