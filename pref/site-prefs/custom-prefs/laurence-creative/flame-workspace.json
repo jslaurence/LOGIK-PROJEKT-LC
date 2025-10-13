@@ -1,0 +1,149 @@
+[
+  {
+    "type": "library",
+    "name": "assets",
+    "expanded": true,
+    "children": [ 
+      {
+        "type": "folder",
+        "name": "audio",
+        "children": [
+          {
+            "type": "reel",
+            "name": "mix"
+          },
+          {
+            "type": "reel",
+            "name": "music"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "footage",
+        "children": [
+          {
+            "type": "reel",
+            "name": "graded"
+          },
+          {
+            "type": "reel",
+            "name": "raw"
+          },
+          {
+            "type": "reel",
+            "name": "rotoscope"
+          },
+          {
+            "type": "reel",
+            "name": "stock"
+          },
+          {
+            "type": "reel",
+            "name": "transcodes"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "graphics",
+        "children": [
+          {
+            "type": "reel",
+            "name": "legal"
+          },
+          {
+            "type": "reel",
+            "name": "paint"
+          },
+          {
+            "type": "reel",
+            "name": "photoshop"
+          },
+          {
+            "type": "reel",
+            "name": "slates"
+          },  
+          {
+            "type": "reel",
+            "name": "subtitles"
+          },
+          {
+            "type": "reel",
+            "name": "supers and titles"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "refrerence",
+        "children": [
+          {
+            "type": "reel",
+            "name": "markups"
+          },
+          {
+            "type": "reel",
+            "name": "ref_images"
+          },
+          {
+            "type": "reel",
+            "name": "ref_videos"
+          },
+          {
+            "type": "reel",
+            "name": "ref_style_guides"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "libarary",
+    "name": "shots"
+  },
+  { "type": "library",
+    "name": "desktops"
+  },
+  {
+    "type": "desktop",
+    "name_template": "DT_conforms"
+  },
+  {
+    "type": "desktop_contents",
+    "items": [
+      {
+        "type": "reel_group",
+        "name": "conforms",
+        "reels": [
+          {
+            "type": "reel",
+            "name": "ref_edits"
+          },
+          { "type": "reel",
+            "name": "postings"
+          },
+          {
+            "type": "reel",
+            "name": "sequences",
+            "reel_type": "Sequence"
+          },
+          {
+            "type": "reel",
+            "name": "sources"
+          }
+        ]
+      },
+      {
+        "type": "batch_group",
+        "name": "scratch batch",
+        "batches": [
+          {
+            "type": "batch",
+            "name": "scratch_01"
+          }
+        ]
+      }
+    ]
+  }
+ ]

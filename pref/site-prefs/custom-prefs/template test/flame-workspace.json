@@ -1,0 +1,82 @@
+[
+  {
+    "type": "library",
+    "name": "template test Library",
+    "expanded": true,
+    "children": [
+      {
+        "type": "folder",
+        "name": "assets",
+        "children": [
+          {
+            "type": "reel",
+            "name": "3d"
+          },
+          {
+            "type": "reel",
+            "name": "audio"
+          },
+          {
+            "type": "reel",
+            "name": "editorial"
+          },
+          {
+            "type": "reel",
+            "name": "fonts"
+          },
+          {
+            "type": "reel",
+            "name": "footage"
+          },
+          {
+            "type": "reel",
+            "name": "reference"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "from_client",
+        "children": [
+          {
+            "type": "reel",
+            "name": "docs"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "out",
+        "children": [
+          {
+            "type": "reel",
+            "name": "delivery"
+          },
+          {
+            "type": "reel",
+            "name": "postings"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "shots",
+        "children": []
+      },
+      {
+        "type": "folder",
+        "name": "support",
+        "children": [
+          {
+            "type": "reel",
+            "name": "software"
+          },
+          {
+            "type": "reel",
+            "name": "utilities"
+          }
+        ]
+      }
+    ]
+  }
+]

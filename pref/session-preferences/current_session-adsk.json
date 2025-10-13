@@ -1,1 +1,19 @@
-
+{
+    "Name": "7776_hw_valentine25_2026_1_LC-MBPM4",
+    "ProjectDir": "/var/opt/Autodesk/flame/projects/7776_hw_valentine25_2026_1_LC-MBPM4",
+    "SetupDir": "/var/opt/Autodesk/flame/projects/7776_hw_valentine25_2026_1_LC-MBPM4/setups",
+    "MediaDir": "/var/opt/Autodesk/flame/projects/7776_hw_valentine25_2026_1_LC-MBPM4/media",
+    "Resolution": {
+        "FrameWidth": 3840,
+        "FrameHeight": 2160,
+        "FrameDepth": "16-bit fp",
+        "AspectRatio": 1.7777778,
+        "FieldDominance": "PROGRESSIVE"
+    },
+    "StartFrame": 1001,
+    "ConfigTemplate": "3840x2160@23976p.cfg",
+    "FrameRate": "23.976 fps",
+    "IntermediatesProfile": 2,
+    "FloatIntermediates": 596088,
+    "ColourPolicyName": "ACES 2.0"
+}

@@ -128,6 +128,7 @@ class ProjektCreator:
         iterations_dir = (
             os.path.join(
                 config.logik_projekt_path,
+                "support",
                 "flame",
                 "iterations"
             )
@@ -230,6 +231,7 @@ class ProjektCreator:
         )
         backup_script_dir = os.path.join(
             config.logik_projekt_path,
+            "support",
             "backup",
             "backup-scripts",
             config.current_workstation

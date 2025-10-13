@@ -7,7 +7,7 @@
                 "Bookmarks": [
                     {
                         "Bookmark": "flame setups",
-                        "Path": "<project home>",
+                        "Path": "<project setups>",
                         "Visibility": "Global"
                     },
                     {
@@ -1047,24 +1047,10 @@
                                 "Folder": "utilities",
                                 "Bookmarks": [
                                     {
-                                        "Folder": "Synergy",
-                                        "Bookmarks": [
-                                            {
-                                                "Folder": "SynColor",
-                                                "Bookmarks": [
-                                                    {
-                                                        "Folder": "Shared",
-                                                        "Bookmarks": [
-                                                            {
-                                                                "Bookmark": "transforms",
-                                                                "Path": "/PROJEKTS/<project nickname>/utilities/Synergy/SynColor/Shared/transforms",
-                                                                "Visibility": "Global"
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
+                                        "Bookmark": "flame-colortoolkit",
+                                        "Path": "<project setups>/colour_mgmt/transforms/flame-colortoolkit",
+
+                                        "Visibility": "Global"
                                     }
                                 ]
                             },

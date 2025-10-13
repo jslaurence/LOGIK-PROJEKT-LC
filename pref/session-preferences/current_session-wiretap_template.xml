@@ -1,1 +1,22 @@
-
+<?xml version='1.0' encoding='utf-8'?>
+<Project>
+  <Name>7776_hw_valentine25_2026_1_LC-MBPM4</Name>
+  <Nickname>7776_hw_valentine25</Nickname>
+  <ShotgunProjectName>7776_hw_valentine25</ShotgunProjectName>
+  <Description>Re-do Valentines 24</Description>
+  <CatalogDir>/var/opt/Autodesk/flame/projects/7776_hw_valentine25_2026_1_LC-MBPM4/catalog</CatalogDir>
+  <ProjectDir>/var/opt/Autodesk/flame/projects/7776_hw_valentine25_2026_1_LC-MBPM4</ProjectDir>
+  <SetupDir>/var/opt/Autodesk/flame/projects/7776_hw_valentine25_2026_1_LC-MBPM4/setups</SetupDir>
+  <MediaDir>/var/opt/Autodesk/flame/projects/7776_hw_valentine25_2026_1_LC-MBPM4/media</MediaDir>
+  <Version>2026.1</Version>
+  <FrameWidth>3840</FrameWidth>
+  <FrameHeight>2160</FrameHeight>
+  <FrameDepth>16-bit fp</FrameDepth>
+  <AspectRatio>1.7777778</AspectRatio>
+  <FieldDominance>PROGRESSIVE</FieldDominance>
+  <ColourPolicyName>ACES 2.0</ColourPolicyName>
+  <OCIOConfigFile>/opt/Autodesk/colour_mgmt/configs/flame_configs/2026.0/aces2.0_config/config.ocio</OCIOConfigFile>
+  <IntermediatesProfile>2:596088</IntermediatesProfile>
+  <FrameRate>23.976 fps</FrameRate>
+  <DefaultStartFrame>1001</DefaultStartFrame>
+</Project>
